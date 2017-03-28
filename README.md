@@ -9,7 +9,7 @@ Multi-platform support
 - Linux
 
 ### Requirements
-- [dep]("https://github.com/golang/dep")
+- [dep](https://github.com/golang/dep)
 
 ### Build server and client
 
