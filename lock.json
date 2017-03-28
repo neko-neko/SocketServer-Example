@@ -1,0 +1,29 @@
+{
+    "memo": "1b3dcd4ba4ae468924c3927e521d35ba272b6e5ffd132d249cc35913385fecfc",
+    "projects": [
+        {
+            "name": "github.com/Sirupsen/logrus",
+            "version": "v0.11.5",
+            "revision": "ba1b36c82c5e05c4f912a88eab0dcd91a171688f",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/davecgh/go-spew",
+            "version": "v1.1.0",
+            "revision": "346938d642f2ec3594ed81d874461961cd0faa76",
+            "packages": [
+                "spew"
+            ]
+        },
+        {
+            "name": "golang.org/x/sys",
+            "branch": "master",
+            "revision": "8fd966b47dbdd4faa03de0d06e3d733baeb9a1a9",
+            "packages": [
+                "unix"
+            ]
+        }
+    ]
+}
