@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/neko-neko/SocketServer-Example/shared/log"
-	"github.com/neko-neko/SocketServer-Example/shared/server"
+	"github.com/neko-neko/SocketServer-Example/server"
 )
 
 const MaxPacketQueueSize = 1024
