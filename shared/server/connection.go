@@ -127,10 +127,10 @@ func (c *Connection) recvWait(packetQueue chan PacketQueue) {
 			continue
 		}
 
-		log.Debug(spew.Sprint(buf[:]))
+		log.Debug(spew.Sprint(buf[:size]))
 
 		packetQueue <- PacketQueue{
-			Packet:     buf,
+			Packet:     buf[:size],
 			Connection: c,
 		}
 	}
